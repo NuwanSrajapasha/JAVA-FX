@@ -16,13 +16,13 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="77.0" layoutY="70.0" prefHeight="36.0" prefWidth="186.0" promptText="ID" />
-      <TextField layoutX="77.0" layoutY="126.0" prefHeight="36.0" prefWidth="433.0" promptText="Name" />
+      <TextField fx:id="txtID" layoutX="77.0" layoutY="70.0" prefHeight="36.0" prefWidth="186.0" promptText="ID" />
+      <TextField fx:id="txtname" layoutX="77.0" layoutY="126.0" prefHeight="36.0" prefWidth="433.0" promptText="Name" />
       <Label contentDisplay="CENTER" layoutX="43.0" layoutY="77.0" prefHeight="21.0" prefWidth="22.0" text="ID" textAlignment="CENTER" />
       <Label contentDisplay="CENTER" layoutX="31.0" layoutY="133.0" prefHeight="22.0" prefWidth="46.0" text="Name" textAlignment="CENTER" />
-      <TextField layoutX="401.0" layoutY="81.0" prefHeight="36.0" prefWidth="186.0" promptText="title" />
+      <TextField fx:id="txtTitle" layoutX="401.0" layoutY="81.0" prefHeight="36.0" prefWidth="186.0" promptText="title" />
       <Label contentDisplay="CENTER" layoutX="362.0" layoutY="87.0" prefHeight="22.0" prefWidth="38.0" text="Title" textAlignment="CENTER" />
-      <TextField layoutX="81.0" layoutY="172.0" prefHeight="74.0" prefWidth="426.0" promptText="Address" />
+      <TextField fx:id="txtAddress" layoutX="81.0" layoutY="172.0" prefHeight="74.0" prefWidth="426.0" promptText="Address" />
       <Label contentDisplay="CENTER" layoutX="31.0" layoutY="194.0" prefHeight="22.0" prefWidth="46.0" text="Address" textAlignment="CENTER" />
       <TableView layoutX="4.0" layoutY="302.0" prefHeight="180.0" prefWidth="648.0">
         <columns>
@@ -32,7 +32,7 @@
             <TableColumn prefWidth="331.2000732421875" text="Address" />
         </columns>
       </TableView>
-      <Button layoutX="549.0" layoutY="258.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="66.0" style="-fx-background-color: green;" text="Save" textAlignment="CENTER" textFill="WHITE" />
+      <Button layoutX="549.0" layoutY="258.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="22.0" prefWidth="66.0" style="-fx-background-color: green;" text="Save" textAlignment="CENTER" textFill="WHITE" />
       <Button layoutX="474.0" layoutY="258.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="66.0" style="-fx-background-color: red;" text="Delete" textAlignment="CENTER" textFill="WHITE" />
    </children>
 </AnchorPane>
