@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerController">
    <children>
       <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="246.0" layoutY="23.0" prefHeight="36.0" prefWidth="156.0" text="Customer form">
          <font>
@@ -33,6 +33,6 @@
         </columns>
       </TableView>
       <Button layoutX="549.0" layoutY="258.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="22.0" prefWidth="66.0" style="-fx-background-color: green;" text="Save" textAlignment="CENTER" textFill="WHITE" />
-      <Button layoutX="474.0" layoutY="258.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="66.0" style="-fx-background-color: red;" text="Delete" textAlignment="CENTER" textFill="WHITE" />
+      <Button layoutX="474.0" layoutY="258.0" mnemonicParsing="false" onAction="#btnOnAction" prefHeight="22.0" prefWidth="66.0" style="-fx-background-color: red;" text="Delete" textAlignment="CENTER" textFill="WHITE" />
    </children>
 </AnchorPane>
